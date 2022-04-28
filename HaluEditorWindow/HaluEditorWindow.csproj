@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>ngprojects.HaluEditorWindow</RootNamespace>
+    <ApplicationIcon />
+    <StartupObject />
+    <Configurations>Debug;Release;DebugMemoryOutput</Configurations>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Settings.StyleCop.txt" />
+    <None Remove="StyleCop.Cache" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HaluEditor\HaluEditor.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,28 @@
+﻿<Window x:Class="ngprojects.HaluEditorWindow.EditorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ngprojects.HaluEditorWindow"
+        xmlns:editor="clr-namespace:ngprojects.HaluEditor;assembly=HaluEditor"
+        mc:Ignorable="d"
+        Title="Halu-Editor" Height="450" Width="800">
+
+    <Grid TextInput="Grid_TextInput">
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+        <Menu Grid.Row="0" Background="#FFE84A5F" Foreground="WhiteSmoke">
+            <MenuItem Header="_Datei" Background="#FFE84A5F" Foreground="WhiteSmoke">
+                <MenuItem Background="#FFE84A5F" Foreground="WhiteSmoke" Header="Öffnen" Click="OpenFile_Click" />
+                <MenuItem Background="#FFE84A5F" Foreground="WhiteSmoke" Header="_Speichern" Click="SaveFile_Click" />
+                <MenuItem Background="#FFE84A5F" Foreground="WhiteSmoke" Header="Speichern unter" Click="SaveFileAs_Click" />
+            </MenuItem>
+
+            <MenuItem Header="Debug" Click="Button_Click" />
+        </Menu>
+        <editor:HaluEditorControl x:Name="HaluEditor" Grid.Row="1"></editor:HaluEditorControl>
+    </Grid>
+</Window>

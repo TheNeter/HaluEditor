@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaluEditor", "HaluEditor\HaluEditor.csproj", "{57D51E3A-AAF8-4C10-93A1-552408CC91CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HaluEditorWindow", "HaluEditorWindow\HaluEditorWindow.csproj", "{4DC50670-26E1-42C1-A2A8-6606C546C91E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HaluEditorTest", "HaluEditorTest\HaluEditorTest.csproj", "{9F553010-532A-4EBF-BCA6-617E762BEF4C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		DebugMemoryOutput|Any CPU = DebugMemoryOutput|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{57D51E3A-AAF8-4C10-93A1-552408CC91CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57D51E3A-AAF8-4C10-93A1-552408CC91CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57D51E3A-AAF8-4C10-93A1-552408CC91CE}.DebugMemoryOutput|Any CPU.ActiveCfg = DebugMemoryOutput|Any CPU
+		{57D51E3A-AAF8-4C10-93A1-552408CC91CE}.DebugMemoryOutput|Any CPU.Build.0 = DebugMemoryOutput|Any CPU
+		{57D51E3A-AAF8-4C10-93A1-552408CC91CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57D51E3A-AAF8-4C10-93A1-552408CC91CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DC50670-26E1-42C1-A2A8-6606C546C91E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DC50670-26E1-42C1-A2A8-6606C546C91E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DC50670-26E1-42C1-A2A8-6606C546C91E}.DebugMemoryOutput|Any CPU.ActiveCfg = DebugMemoryOutput|Any CPU
+		{4DC50670-26E1-42C1-A2A8-6606C546C91E}.DebugMemoryOutput|Any CPU.Build.0 = DebugMemoryOutput|Any CPU
+		{4DC50670-26E1-42C1-A2A8-6606C546C91E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DC50670-26E1-42C1-A2A8-6606C546C91E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F553010-532A-4EBF-BCA6-617E762BEF4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F553010-532A-4EBF-BCA6-617E762BEF4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F553010-532A-4EBF-BCA6-617E762BEF4C}.DebugMemoryOutput|Any CPU.ActiveCfg = DebugMemoryOutput|Any CPU
+		{9F553010-532A-4EBF-BCA6-617E762BEF4C}.DebugMemoryOutput|Any CPU.Build.0 = DebugMemoryOutput|Any CPU
+		{9F553010-532A-4EBF-BCA6-617E762BEF4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F553010-532A-4EBF-BCA6-617E762BEF4C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAE0E705-CE8F-4D78-BF48-CE6A6DCC59E2}
+	EndGlobalSection
+EndGlobal

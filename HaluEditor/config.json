@@ -1,0 +1,14 @@
+{
+  "SelectionColor": "#FF84A9AC",
+  "TextColor": "#FFE4E3E3",
+  "EditorColor": "#FF204051",
+  "LineNumberColor": "#FF363636",
+  "LineNumberTextColor": "#FF99d8d0",
+  "AutocompleteWindowColor": "#FF204051",
+  "AutocompleteForegroundColor": "#FF363636",
+  "AutocompleteForegroundReturntypeColor": "#FF99d8d0",
+  "CursorColor": "#FFCCCCCC",
+  "CursorWidth": 2.0,
+  "CursorBlinkInMs": 500.0,
+  "FontSize": 20.0
+}
